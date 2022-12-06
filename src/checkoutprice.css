@@ -1,0 +1,46 @@
+.Checkoutprice {
+  position: fixed;
+  right: -1px;
+  margin: 20px;
+  background-color: white;
+  width: 30vw;
+  height: 140px;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.checkout-btn {
+  margin-top: 25px;
+  background-color: #f0c14b;
+  border: 1px solid #c4a044;
+  border-radius: 7px;
+  width: 90%;
+  height: 30px;
+  cursor: pointer;
+}
+
+.basket-price {
+  font-size: 25px;
+}
+
+.basket-price {
+  margin-bottom: 10px;
+}
+
+.basket-price strong {
+  margin-left: 8px;
+}
+
+.checkout-box label {
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.checkout-box input {
+  margin-right: 5px;
+}

@@ -1,0 +1,41 @@
+.IncheckProduct {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 5px;
+  margin: 40px 0 10px 40px;
+  border-radius: 8px;
+  transition: transform 0.1s linear;
+}
+.IncheckProduct:hover {
+  transform: scale(1.1);
+}
+.pinfo {
+  text-align: start;
+}
+
+.pimage {
+  width: 11vw;
+  margin-right: 70px;
+}
+
+.pprice {
+  margin: 5px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.prating {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.remove-btn {
+  width: 100%;
+  margin-top: 30px;
+  height: 30px;
+  background-color: #f0c14b;
+  border: 1px solid #c4a044;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
